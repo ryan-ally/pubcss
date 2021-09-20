@@ -4,7 +4,9 @@
   "description": "Publish papers like it's HTML5.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -23,11 +25,14 @@
     "url": "https://github.com/cbleslie/pubcss/issues"
   },
   "homepage": "https://github.com/cbleslie/pubcss#readme",
-  "dependencies": {},
+  "dependencies": {
+    "snyk": "^1.489.0"
+  },
   "devDependencies": {
-    "browser-sync": "^2.18.12",
-    "gulp": "^3.9.1",
+    "browser-sync": "^2.26.14",
+    "gulp": "^4.0.0",
     "gulp-autoprefixer": "^4.0.0",
     "gulp-sass": "^3.1.0"
-  }
+  },
+  "snyk": true
 }
