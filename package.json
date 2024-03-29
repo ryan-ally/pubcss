@@ -30,7 +30,7 @@
   },
   "devDependencies": {
     "browser-sync": "^2.26.14",
-    "gulp": "^4.0.0",
+    "gulp": "^5.0.0",
     "gulp-autoprefixer": "^4.0.0",
     "gulp-sass": "^3.1.0"
   },
