@@ -29,10 +29,10 @@
     "snyk": "^1.489.0"
   },
   "devDependencies": {
-    "browser-sync": "^2.26.14",
+    "browser-sync": "^2.27.11",
     "gulp": "^4.0.0",
     "gulp-autoprefixer": "^4.0.0",
-    "gulp-sass": "^3.1.0"
+    "gulp-sass": "^5.0.0"
   },
   "snyk": true
 }
